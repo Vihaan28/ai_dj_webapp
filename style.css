@@ -1,0 +1,38 @@
+body{
+    background: url("dj bakground.png");
+    
+    background-size: cover;
+    
+}
+
+
+.NOTE{
+    color: black;
+}
+.pause , .stop {
+    animation-name: demo;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+
+}
+
+canvas{
+    
+    border-radius: 10px;
+    animation-name: demo;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-top: 200px;
+
+
+}
+@keyframes demo{
+    from {box-shadow: 5px 5px 48px yellow;}
+    to {box-shadow: 5px 5px 48px red;}
+}
